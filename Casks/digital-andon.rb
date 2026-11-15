@@ -1,9 +1,9 @@
-cask "andon" do
-  version "0.1.3"
-  sha256 "efe3f378b546dc7ff13289ffdaa48ac91ce61dd32b169bdafed88d1fe20a3d40"
+cask "digital-andon" do
+  version "0.2.0"
+  sha256 "0cc51d5f567f0821f4ee7bbc50d9f46010cf9889239fdeea9e94625b9286f6f4"
 
-  url "https://github.com/JamesDHW/digital-andon/releases/download/v#{version}/Andon.dmg"
-  name "Andon"
+  url "https://github.com/JamesDHW/digital-andon/releases/download/v#{version}/Digital-Andon.dmg"
+  name "Digital Andon"
   desc "Menu bar andon cord: see who on your team needs help"
   homepage "https://github.com/JamesDHW/digital-andon"
 
@@ -15,7 +15,7 @@ cask "andon" do
   auto_updates true
   depends_on macos: ">= :sonoma"
 
-  app "Andon.app"
+  app "Digital Andon.app"
 
   zap trash: [
     "~/Library/Preferences/*.andon.plist",
