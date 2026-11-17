@@ -1,6 +1,6 @@
 cask "digital-andon" do
-  version "0.2.8"
-  sha256 "9af843c1c699923aeb25f069c1d758bd658f19cb9a55b5567fa6f59a33f93ae5"
+  version "0.2.9"
+  sha256 "12d3d12108e8dace377440a3a23dcf8bef17bff6d453105a540407c3834ca635"
 
   url "https://github.com/JamesDHW/digital-andon/releases/download/v#{version}/Digital-Andon.dmg"
   name "Digital Andon"
